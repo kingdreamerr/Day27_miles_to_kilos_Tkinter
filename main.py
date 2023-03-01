@@ -2,6 +2,13 @@ from tkinter import *
 
 window = Tk()
 
+
+def convert():
+    miles_value = float(input_tag.get())
+    miles_to_kilometers = miles_value * 1.60934
+    value.config(text=round(miles_to_kilometers))
+
+
 input_tag = Entry(width=10)
 input_tag.grid(column=1, row=0)
 
