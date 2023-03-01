@@ -13,4 +13,10 @@ equal.grid(column=0, row=1)
 
 value = Label(text='0',font=('Arial',15,'bold'))
 value.grid(column=1, row=1)
+
+kilo = Label(text="Km",font=('Arial',15,'bold'),pady=10)
+kilo.grid(column=2, row=1)
+
+btn = Button(text='Calculate', command=convert, padx=5)
+btn.grid(column=1, row=2)
 window.mainloop()
