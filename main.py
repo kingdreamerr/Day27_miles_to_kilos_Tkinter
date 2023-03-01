@@ -2,6 +2,10 @@ from tkinter import *
 
 window = Tk()
 
+def clear():
+    value.config(text='0')
+    input_tag.delete(0, END)
+
 
 def convert():
     miles_value = float(input_tag.get())
