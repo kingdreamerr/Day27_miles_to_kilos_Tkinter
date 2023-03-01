@@ -1,6 +1,10 @@
 from tkinter import *
 
 window = Tk()
+window.title('Convert Miles to Kilometers')
+window.minsize(500, 300)
+window.config(padx=100, pady=100)
+
 
 def clear():
     value.config(text='0')
