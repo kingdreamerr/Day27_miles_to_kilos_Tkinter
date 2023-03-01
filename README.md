@@ -34,7 +34,9 @@ my_car = Car(model="Nisan")
 ## Project to solidify material learned: 
 
 ### Preview:
-![](./.png)
+![convert](./convert1.png)
+![convert2](./convert2.png)
+
 
 
 ### Miles to kilometers convertor

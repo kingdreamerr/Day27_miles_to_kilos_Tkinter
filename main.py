@@ -32,7 +32,7 @@ value.grid(column=1, row=1)
 kilo = Label(text="Km",font=('Arial',15,'bold'),pady=10)
 kilo.grid(column=2, row=1)
 
-btn = Button(text='Calculate', command=convert, padx=5)
+btn = Button(text='Convert', command=convert, padx=5)
 btn.grid(column=1, row=2)
 
 clear_btn = Button(text='Clear', command=clear)
